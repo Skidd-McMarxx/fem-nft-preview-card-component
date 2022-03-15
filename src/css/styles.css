@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --body-bg-color: hsl(217, 54%, 11%) ;
+    --card-bg-color: hsl(216, 50%, 16%);
+    --break-line: hsl(215, 32%, 27%);
+    --card-text-header: hsl(0, 0%, 100%);
+    --eth-cost: hsl(178, 100%, 50%);
+    --card-text: hsl(215, 51%, 70%);
+    --card-shadow: rgba(160, 160, 160, 0.5);
+    --links: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--card-text);
+}
+
+main{
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--card-bg-color);
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.preview {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-header {
+    color: var(--card-text-header);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-descripion {
+    font-size: 16px;
+    
+}
+
+.price {
+    color: var(--eth-cost);
+}
+
+.avatar {
+    width: 25px;
+    border-radius: 50%;
+    border: white 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 2rem;
+}
+
+.attribution p { 
+    font-size: 11px; 
+    text-align: center;
+}
+
+.attribution a { 
+    color: var(--links); 
+}
