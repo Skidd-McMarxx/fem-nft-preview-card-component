@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution Page](https://your-solution-url.com](https://www.frontendmentor.io/solutions/nft-preview-card-component-SUKlpxZRh)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/nft-preview-card-component-SUKlpxZRh)
 - Live Site URL: [Live Github Page](https://john-csm-tate.github.io/fem-nft-preview-card-component/)
 
 ## My process
